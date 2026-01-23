@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+7Wfhwst2uE=",
+  "success": true,
+  "projectFilePath": "/Users/mohamed/Documents/NaboHjelp24/backend/src/Core/Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/mohamed/.nuget/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/Users/mohamed/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

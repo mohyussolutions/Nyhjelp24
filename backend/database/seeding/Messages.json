@@ -1,0 +1,20 @@
+[
+  {
+    "From": "admin1@nabohjelp.no",
+    "To": "ola@test.no",
+    "Message": "Welcome to NaboHjelp!",
+    "Timestamp": "2024-01-01T10:00:00Z"
+  },
+  {
+    "From": "ola@test.no",
+    "To": "admin1@nabohjelp.no",
+    "Message": "Thank you! Glad to be here.",
+    "Timestamp": "2024-01-01T10:05:00Z"
+  },
+  {
+    "From": "kari@test.no",
+    "To": "admin2@nabohjelp.no",
+    "Message": "How do I post a job?",
+    "Timestamp": "2024-01-02T09:00:00Z"
+  }
+]

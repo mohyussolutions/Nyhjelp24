@@ -1,0 +1,8 @@
+[
+  {
+    "code": "03",
+    "name": "Oslo",
+    "municipalities": [{ "code": "0301", "name": "Oslo" }]
+  }
+  // ...existing code for all other regions...
+]

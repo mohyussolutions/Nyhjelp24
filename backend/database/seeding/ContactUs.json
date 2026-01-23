@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Test User",
+    "Email": "test@example.com",
+    "Message": "Hello, this is a test contact message."
+  },
+  {
+    "Name": "Jane Doe",
+    "Email": "jane@example.com",
+    "Message": "I have a question about your services."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Admin One",
+    "Email": "admin1@nabohjelp.no",
+    "PasswordHash": "password123",
+    "Role": "Admin"
+  },
+  {
+    "Name": "Admin Two",
+    "Email": "admin2@nabohjelp.no",
+    "PasswordHash": "password123",
+    "Role": "Admin"
+  },
+  {
+    "Name": "Ola Nordmann",
+    "Email": "ola@test.no",
+    "PasswordHash": "user123",
+    "Role": "User"
+  },
+  {
+    "Name": "Kari Nordmann",
+    "Email": "kari@test.no",
+    "PasswordHash": "user123",
+    "Role": "User"
+  }
+]

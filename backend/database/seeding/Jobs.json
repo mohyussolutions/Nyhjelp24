@@ -1,0 +1,26 @@
+[
+  {
+    "Title": "Walk my dog",
+    "Description": "Need someone to walk my Golden Retriever for 1 hour.",
+    "Location": "Oslo",
+    "Price": 200,
+    "Status": "Open",
+    "CreatedByEmail": "ola@test.no"
+  },
+  {
+    "Title": "Paint fence",
+    "Description": "Painting a small garden fence. Paint provided.",
+    "Location": "Bergen",
+    "Price": 1500,
+    "Status": "Open",
+    "CreatedByEmail": "ola@test.no"
+  },
+  {
+    "Title": "Move sofa",
+    "Description": "Help moving a sofa to 2nd floor.",
+    "Location": "Trondheim",
+    "Price": 500,
+    "Status": "Completed",
+    "CreatedByEmail": "ola@test.no"
+  }
+]
