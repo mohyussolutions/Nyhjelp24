@@ -6,3 +6,4 @@
   }
   // ...existing code for all other regions...
 ]
+"This file is deprecated. All seeding data is now in src/API/Data/Seeding."

@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddSignalR();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -18,6 +19,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped(typeof(API.Interfaces.IRepository<>), typeof(API.Repositories.Repository<>));
 builder.Services.AddScoped<API.Services.IUserService, API.Services.UserService>();
 builder.Services.AddScoped<API.Services.IJobService, API.Services.JobService>();
+builder.Services.AddScoped<API.Interfaces.IChatService, API.Services.ChatService>();
 
 builder.Services.AddCors(options =>
 {
@@ -55,8 +57,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowAll");
 
+
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapHub<API.Hubs.ChatHub>("/chathub");
 
 app.Run();

@@ -24,3 +24,4 @@
     "CreatedByEmail": "ola@test.no"
   }
 ]
+"This file is deprecated. All seeding data is now in src/API/Data/Seeding."

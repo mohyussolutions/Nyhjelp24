@@ -1,0 +1,1 @@
+This folder is deprecated. All seeding data is now in src/API/Data/Seeding.

@@ -10,3 +10,4 @@
     "Message": "I have a question about your services."
   }
 ]
+"This file is deprecated. All seeding data is now in src/API/Data/Seeding."

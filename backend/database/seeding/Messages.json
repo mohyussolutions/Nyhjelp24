@@ -18,3 +18,4 @@
     "Timestamp": "2024-01-02T09:00:00Z"
   }
 ]
+"This file is deprecated. All seeding data is now in src/API/Data/Seeding."
