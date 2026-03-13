@@ -1,8 +1,6 @@
 GjenbrukStasjon - Recycling Platform
 1: Overview
-GjenbrukStasjon is a web platform where users can post items they no longer need,
-making them available for others to pick up and reuse.
-The goal is to promote recycling and reduce waste by connecting people with items to give away to those who can use them.
+GjenbrukStasjon is a web platform where users can post items they no longer need. Other users can pick up these items and get paid for helping with disposal and delivery to recycling stations. The goal is to promote recycling, reduce waste, and create a community-driven service where people earn money by helping others dispose of unwanted items responsibly
 
 2️: Backend
 Framework: .NET C# (ASP.NET Core)
