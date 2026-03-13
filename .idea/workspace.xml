@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6a48121-f7ed-4aa6-9d3b-7371e2eb964d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/src/API/Controllers/HealthController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/Data/AppDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/Data/DbInitializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/Models/ChatMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/Models/ChatMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/Services/ChatService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/Services/ChatService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Data/Seeding/ContactUs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Data/Seeding/Jobs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Data/Seeding/Messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Data/Seeding/Regions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/Data/Seeding/Users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/ref/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/ref/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/refint/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/refint/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/Debug/net8.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/bin/Debug/net8.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/bin/Debug/net8.0/Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/bin/Debug/net8.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/bin/Debug/net8.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/ref/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/ref/Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/refint/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/Debug/net8.0/refint/Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/constants/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/constants/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/hooks/useAuth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/hooks/useAuth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/pages/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/pages/LoginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/next.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="39AOPFYvZtKIjXmPtbdtmBAbglz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohamed/Documents/NaboHjelp24"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="98110da7-228e-4df3-b5df-48d26a55cc34" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6a48121-f7ed-4aa6-9d3b-7371e2eb964d" name="Changes" comment="" />
+      <created>1770135384024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770135384024</updated>
+    </task>
+    <servers />
+  </component>
+</project>

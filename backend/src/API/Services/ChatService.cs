@@ -11,6 +11,7 @@ namespace API.Services
     public class ChatService : IChatService
     {
         private readonly AppDbContext _context;
+
         public ChatService(AppDbContext context)
         {
             _context = context;
@@ -26,7 +27,9 @@ namespace API.Services
         public async Task<IEnumerable<ChatMessage>> GetMessagesAsync(string user1, string user2)
         {
             return await _context.ChatMessages
-                .Where(m => (m.From == user1 && m.To == user2) || (m.From == user2 && m.To == user1))
+                .Where(m =>
+                    (m.From == user1 && m.To == user2) ||
+                    (m.From == user2 && m.To == user1))
                 .OrderBy(m => m.Timestamp)
                 .ToListAsync();
         }

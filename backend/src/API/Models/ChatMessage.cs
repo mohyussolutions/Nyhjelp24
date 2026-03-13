@@ -1,10 +1,18 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace API.Models
 {
     public class ChatMessage
     {
-        public string From { get; set; }
-        public string To { get; set; }
-        public string Message { get; set; }
+        [Key]
+        public int Id { get; set; }
+        [Required]
+        public required string From { get; set; }
+        [Required]
+        public required string To { get; set; }
+        [Required]
+        public required string Message { get; set; }
         public DateTime Timestamp { get; set; } = DateTime.UtcNow;
     }
 }

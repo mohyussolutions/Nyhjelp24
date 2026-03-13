@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using API.Models;
+using API.Interfaces;
 
 namespace API.Controllers
 {
@@ -10,19 +10,24 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ChatController : ControllerBase
     {
-        private static List<ChatMessage> Messages = new List<ChatMessage>();
+        private readonly IChatService _chatService;
+
+        public ChatController(IChatService chatService)
+        {
+            _chatService = chatService;
+        }
 
         [HttpGet("{user1}/{user2}")]
-        public ActionResult<IEnumerable<ChatMessage>> GetMessages(string user1, string user2)
+        public async Task<ActionResult<IEnumerable<ChatMessage>>> GetMessages(string user1, string user2)
         {
-            var chat = Messages.Where(m => (m.From == user1 && m.To == user2) || (m.From == user2 && m.To == user1)).ToList();
+            var chat = await _chatService.GetMessagesAsync(user1, user2);
             return Ok(chat);
         }
 
         [HttpPost]
-        public ActionResult PostMessage([FromBody] ChatMessage message)
+        public async Task<ActionResult> PostMessage([FromBody] ChatMessage message)
         {
-            Messages.Add(message);
+            await _chatService.SaveMessageAsync(message);
             return Ok();
         }
     }
